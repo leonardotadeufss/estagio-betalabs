@@ -24,7 +24,6 @@ function automaticSlider() {
     screenSize = screen.width
     count += screenSize;
     var slide = (count / screenSize)
-    console.log(count);
 
     sliderbtn[slide - 1].classList.remove('active')
     if (slide > 2) {
@@ -48,7 +47,7 @@ function moveProductList(side) {
     items.scrollTo(productCount, 0)
 }
 
-function showFooterInfo(Event){
+function showFooterInfo(Event) {
     if (screenSize < 1300) {
         Event.target.nextElementSibling.classList.toggle('active')
     }

@@ -16,6 +16,10 @@
 
 }
 
+.button a{
+    color: inherit;
+}
+
 .button a::after{
     display: inline-block;
     content: "";
