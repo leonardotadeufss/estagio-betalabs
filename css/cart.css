@@ -1,0 +1,9 @@
+.cart-container{
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.cart-container svg{
+    height: 100%;
+}

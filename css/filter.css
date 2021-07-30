@@ -1,0 +1,30 @@
+.filter-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.dropdown-filter{
+    font-family: inherit;
+    background: url("../img/arrowdown.svg") no-repeat scroll 7px 7px;
+    background-position: 90% 55%;
+    background-color: #91A8D1;
+    border: none;
+    border-radius: 25px;
+    color: #FFF;
+    padding: 0px 80px 0 25px;
+    height: 45px;
+    font-size: 1.2em;
+    appearance: none;
+    box-sizing: content-box;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .filter-wrapper{
+        justify-content: center;
+    }
+}

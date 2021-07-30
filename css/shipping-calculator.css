@@ -1,0 +1,47 @@
+.shipping-calculator label{
+    font-weight: 700;
+    display: block;
+    font-size: .9rem;
+    margin-bottom: .5rem;
+}
+
+.shipping-calculator button{
+    background-color: #668DD9;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem .7rem;
+}
+
+.shipping-calculator input{
+    color: #909090;
+    outline: none;
+    border: 2px solid #909090;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    padding: 5px 15px;
+    text-align: center;
+    width: 10rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media  screen and (max-width: 1300px) {
+  .shipping-calculator{
+    padding: 1rem;
+  }
+
+  .shipping-calculator label{
+    padding: 1rem;
+  }
+}

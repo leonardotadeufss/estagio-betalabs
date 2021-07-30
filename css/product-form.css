@@ -1,0 +1,136 @@
+.product-form{
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+.product-form .price-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.product-form .price{
+    padding: 5px 0;
+}
+
+.product-form .price.previous{
+    text-decoration: line-through;
+    font-size: 1.5rem;
+}
+.product-form .price.value{
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #668DD9;
+    flex-direction: row;
+}
+
+.product-form .price.value small{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.product-form .price.card{
+    font-size: 1.5rem;
+}
+.product-form .price.card strong{
+font-weight: 700;
+}
+
+.product-form .input-title{
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-form input[type="radio"]{
+    display: none;
+}
+
+.product-form .color-input{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0px 4.8913px 4.8913px rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+}
+
+.product-form .color-input.black{
+    background-color: #000;
+}
+.product-form .color-input.green{
+    background-color: #A8EB90;
+}
+.product-form .color-input.coral{
+    background-color: #D9666D;
+}
+
+input[type="radio"]:checked + .color-input{
+    border: 4px solid #EFC392;
+}
+
+.product-form .size-input{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #909090;
+    box-shadow: 0px 4.8913px 4.8913px rgba(0, 0, 0, 0.25);
+    border: 1px solid #909090;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+input[type="radio"]:checked + .size-input{
+    background-color:  #EFC392;
+    border: 1px solid #EFC392;
+    color: #FFF;
+}
+
+
+@media  screen and (max-width: 1300px) {
+
+    .product-form{
+        padding-left: 0;
+        padding-top: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .product-form .price.previous{
+        font-size: 0.9rem;
+    }
+    .product-form .price.value{
+        font-size: 1.8rem;
+    }
+    
+    .product-form .price.value small{
+        font-size: .8rem;
+    }
+    
+    .product-form .price.card{
+        font-size: 1.1rem;
+    }
+
+    .product-form .color-selector,
+    .product-form .size-selector,
+    .product-form .quantidade{
+        padding: 1rem;
+    }
+
+    
+   
+}

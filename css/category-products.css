@@ -1,0 +1,15 @@
+.category-wrapper{
+    display: grid;
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px 0;
+    gap: 1rem;
+    grid-auto-rows: 350px;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    justify-items: center;
+    height: max-content;
+}
+
+.category-wrapper .product-item{
+    margin: 0;
+}

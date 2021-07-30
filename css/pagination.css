@@ -1,0 +1,27 @@
+.pagination ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 3rem 40%;
+}
+
+.pagination-link{
+    color: #91A8D1;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.pagination-link.actual{
+    color: #EFC392;
+}
+
+.pagination-link a:visited{
+    color: #91A8D1;
+}
+
+@media  screen and (max-width: 1300px) {
+
+    .pagination ul{
+        padding: 3rem 20%;
+    }
+}

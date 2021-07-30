@@ -1,0 +1,31 @@
+.product-gallery .small-images img{
+    height: 86px;
+    width: 86px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.product-gallery .small-images img:hover{
+    opacity: 0.8;
+}
+
+.product-gallery .big-image img{
+    width: 100%;
+    filter: drop-shadow(0px 0px 3.29669px rgba(0, 0, 0, 0.35));
+    margin-bottom: 2rem;
+}
+
+@media  screen and (max-width: 1300px) {
+
+    .product-gallery{
+        margin-bottom: 2rem;
+    }
+
+    .product-gallery .small-images{
+        display: flex;
+        justify-content: space-between;
+    }
+    .product-gallery .small-images img{
+        margin-right: 0;
+    }
+}
